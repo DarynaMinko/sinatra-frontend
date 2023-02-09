@@ -1,10 +1,10 @@
-import { Button } from "ui/stories/Button";
+import { Button } from "ui/Button";
 
 export default function Docs() {
     return (
         <div>
             <h1>Docs</h1>
-            <Button label="This is Doc btn!" size="medium" />
+            <Button>This is a Docs! Hooray</Button>
         </div>
     );
 }
