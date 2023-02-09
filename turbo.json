@@ -11,6 +11,11 @@
     },
     "dev": {
       "cache": true
+    },
+    "test": {
+      "outputs": ["coverage/**"],
+      "cache": true,
+      "dependsOn": ["^build"]
     }
   }
 }
