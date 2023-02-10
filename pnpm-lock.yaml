@@ -90,6 +90,7 @@ importers:
       eslint: 7.32.0
       eslint-config-custom: workspace:*
       next: ^13.1.1
+      next-transpile-modules: ^10.0.0
       react: 18.2.0
       react-dom: 18.2.0
       tsconfig: workspace:*
@@ -107,6 +108,7 @@ importers:
       '@types/react-dom': 18.0.10
       eslint: 7.32.0
       eslint-config-custom: link:../../packages/eslint-config-custom
+      next-transpile-modules: 10.0.0
       tsconfig: link:../../packages/tsconfig
       typescript: 4.9.5
 
@@ -125,6 +127,18 @@ importers:
       eslint-config-turbo: 0.0.7_eslint@7.32.0
       eslint-plugin-react: 7.31.8_eslint@7.32.0
     devDependencies:
+      typescript: 4.9.5
+
+  packages/libs:
+    specifiers:
+      eslint: ^7.32.0
+      eslint-config-custom: workspace:*
+      tsconfig: workspace:*
+      typescript: ^4.5.2
+    devDependencies:
+      eslint: 7.32.0
+      eslint-config-custom: link:../eslint-config-custom
+      tsconfig: link:../tsconfig
       typescript: 4.9.5
 
   packages/storybooks:
@@ -161,32 +175,26 @@ importers:
   packages/ui:
     specifiers:
       '@babel/core': ^7.20.12
-      '@types/react-dom': ^18.0.6
+      '@types/react': ^18.0.27
+      '@types/react-dom': ^18.0.10
+      autoprefixer: 10.4.11
       babel-loader: ^8.3.0
       eslint: ^7.32.0
       eslint-config-custom: workspace:*
-      react: ^18.2.0
+      postcss: ^8.4.21
+      tailwindcss: ^3.2.6
       tsconfig: workspace:*
-      typescript: ^4.5.2
+      typescript: ^4.9.5
     devDependencies:
       '@babel/core': 7.20.12
+      '@types/react': 18.0.27
       '@types/react-dom': 18.0.10
+      autoprefixer: 10.4.11_postcss@8.4.21
       babel-loader: 8.3.0_@babel+core@7.20.12
       eslint: 7.32.0
       eslint-config-custom: link:../eslint-config-custom
-      react: 18.2.0
-      tsconfig: link:../tsconfig
-      typescript: 4.9.5
-
-  packages/utils:
-    specifiers:
-      eslint: ^7.32.0
-      eslint-config-custom: workspace:*
-      tsconfig: workspace:*
-      typescript: ^4.5.2
-    devDependencies:
-      eslint: 7.32.0
-      eslint-config-custom: link:../eslint-config-custom
+      postcss: 8.4.21
+      tailwindcss: 3.2.6_postcss@8.4.21
       tsconfig: link:../tsconfig
       typescript: 4.9.5
 
@@ -9582,6 +9590,13 @@ packages:
     resolution: {integrity: sha512-9iN1ka/9zmX1ZvLV9ewJYEk9h7RyRRtqdK0woXcqohu8EWIerfPUjYJPg0ULy0UqP7cslmdGc8xKDJcojlKiaw==}
     dev: true
 
+  /next-transpile-modules/10.0.0:
+    resolution: {integrity: sha512-FyeJ++Lm2Fq31gbThiRCrJlYpIY9QaI7A3TjuhQLzOix8ChQrvn5ny4MhfIthS5cy6+uK1AhDRvxVdW17y3Xdw==}
+    deprecated: All features of next-transpile-modules are now natively built-in Next.js 13.1. Please use Next's transpilePackages option :)
+    dependencies:
+      enhanced-resolve: 5.12.0
+    dev: true
+
   /next/13.1.6_pjwopsidmaokadturxaafygjp4:
     resolution: {integrity: sha512-hHlbhKPj9pW+Cymvfzc15lvhaOZ54l+8sXDXJWm3OBNBzgrVj6hwGPmqqsXg40xO1Leq+kXpllzRPuncpC0Phw==}
     engines: {node: '>=14.6.0'}
@@ -10772,6 +10787,7 @@ packages:
     engines: {node: '>=0.10.0'}
     dependencies:
       loose-envify: 1.4.0
+    dev: false
 
   /read-cache/1.0.0:
     resolution: {integrity: sha512-Owdv/Ft7IjOgm/i0xvNDZ1LrRANRfew4b2prF3OWMQLxLfu3bS8FVhCsrSCMK4lR56Y9ya+AThoTpDCTxCmpRA==}
