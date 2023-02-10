@@ -178,6 +178,18 @@ importers:
       tsconfig: link:../tsconfig
       typescript: 4.9.5
 
+  packages/utils:
+    specifiers:
+      eslint: ^7.32.0
+      eslint-config-custom: workspace:*
+      tsconfig: workspace:*
+      typescript: ^4.5.2
+    devDependencies:
+      eslint: 7.32.0
+      eslint-config-custom: link:../eslint-config-custom
+      tsconfig: link:../tsconfig
+      typescript: 4.9.5
+
 packages:
 
   /@ampproject/remapping/2.2.0:
