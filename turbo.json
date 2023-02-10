@@ -7,9 +7,11 @@
             "outputs": ["dist/**", ".next/**"]
         },
         "lint": {
+            "dependsOn": ["^build", "^dev"],
             "outputs": []
         },
         "dev": {
+            "persistent": true,
             "cache": false
         },
         "e2e": {

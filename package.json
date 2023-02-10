@@ -22,8 +22,7 @@
         "eslint-config-custom": "workspace:*",
         "husky": "^8.0.3",
         "lint-staged": "^13.1.1",
-        "prettier": "latest",
-        "turbo": "latest"
+        "prettier": "latest"
     },
     "engines": {
         "node": ">=14.0.0"
