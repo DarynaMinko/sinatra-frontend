@@ -1,6 +1,4 @@
-# Turborepo starter
-
-This is an official pnpm starter turborepo.
+# Sinatra Monorepo repository 
 
 ## What's inside?
 
@@ -18,7 +16,7 @@ Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
 
 ### Utilities
 
-This turborepo has some additional tools already setup for you:
+This repository has some additional tools already setup:
 
 -   [TypeScript](https://www.typescriptlang.org/) for static type checking
 -   [ESLint](https://eslint.org/) for code linting
