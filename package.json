@@ -30,13 +30,13 @@
   },
   "packageManager": "pnpm@7.26.3",
   "lint-staged": {
-    "*.{ts,tsx,js,jsx,md}": [
+    "**/*.{ts,tsx,js,jsx,md}": [
       "prettier --write"
     ],
-    "*.json": [
+    "**/*.json": [
       "prettier --write"
     ],
-    "*.{ts,tsx,js,jsx}": [
+    "**/*.{ts,tsx,js,jsx}": [
       "eslint --fix"
     ]
   }
