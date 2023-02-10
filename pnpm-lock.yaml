@@ -55,6 +55,7 @@ importers:
       autoprefixer: 10.4.11
       eslint: 8.33.0
       eslint-plugin-qwik: 0.17.5
+      fp-ts: ^2.13.1
       node-fetch: 3.3.0
       postcss: ^8.4.16
       prettier: 2.8.3
@@ -63,6 +64,10 @@ importers:
       undici: 5.18.0
       vite: 4.1.1
       vite-tsconfig-paths: 3.5.0
+      zod: ^3.20.6
+    dependencies:
+      fp-ts: 2.13.1
+      zod: 3.20.6
     devDependencies:
       '@builder.io/qwik': 0.17.5_undici@5.18.0
       '@builder.io/qwik-city': 0.1.0_@builder.io+qwik@0.17.5
@@ -7527,6 +7532,10 @@ packages:
     engines: {node: '>= 0.6'}
     dev: true
 
+  /fp-ts/2.13.1:
+    resolution: {integrity: sha512-0eu5ULPS2c/jsa1lGFneEFFEdTbembJv8e4QKXeVJ3lm/5hyve06dlKZrpxmMwJt6rYen7sxmHHK2CLaXvWuWQ==}
+    dev: false
+
   /fraction.js/4.2.0:
     resolution: {integrity: sha512-MhLuK+2gUcnZe8ZHlaaINnQLl0xRIGRfcGk2yl8xoQAfHrSsL3rYu6FCmBdkdbhc9EPlwyGHewaRsvwRMJtAlA==}
     dev: true
@@ -13818,7 +13827,6 @@ packages:
 
   /zod/3.20.6:
     resolution: {integrity: sha512-oyu0m54SGCtzh6EClBVqDDlAYRz4jrVtKwQ7ZnsEmMI9HnzuZFj8QFwAY1M5uniIYACdGvv0PBWPF2kO0aNofA==}
-    dev: true
 
   /zwitch/1.0.5:
     resolution: {integrity: sha512-V50KMwwzqJV0NpZIZFwfOD5/lyny3WlSzRiXgA0G7VUnRlqttta1L6UQIHzd6EuBY/cHGfwTIck7w1yH6Q5zUw==}
