@@ -10,11 +10,10 @@
       "outputs": []
     },
     "dev": {
-      "cache": true
+      "cache": false
     },
-    "test": {
-      "outputs": ["coverage/**"],
-      "cache": true,
+    "e2e": {
+      "outputs": [],
       "dependsOn": ["^build"]
     }
   }
