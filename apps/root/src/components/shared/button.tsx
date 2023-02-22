@@ -31,8 +31,11 @@ export const buttonStyles = cva(["font-semibold", "border", "rounded"], {
     }
 });
 
-export const Button = component$(
-    ({ intent }: { intent: "secondary" | "primary" }) => {
-        return <button class={buttonStyles({ intent })}>lasdkjflakj</button>;
-    }
-);
+type ButtonProps = {
+    readonly intent: "secondary" | "primary";
+    readonly size: "small" | "medium";
+};
+
+export const Button = component$(({ intent }: ButtonProps) => {
+    return <button class={buttonStyles({ intent })}>lasdkjflakj</button>;
+});
