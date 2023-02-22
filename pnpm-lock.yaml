@@ -55,6 +55,7 @@ importers:
       '@typescript-eslint/eslint-plugin': 5.51.0
       '@typescript-eslint/parser': 5.51.0
       autoprefixer: 10.4.11
+      class-variance-authority: ^0.4.0
       eslint: 8.33.0
       eslint-plugin-qwik: 0.17.5
       fp-ts: ^2.13.1
@@ -70,6 +71,7 @@ importers:
     dependencies:
       '@headlessui/react': 1.7.11
       '@heroicons/react': 2.0.16
+      class-variance-authority: 0.4.0_typescript@4.9.5
       fp-ts: 2.13.1
       zod: 3.20.6
     devDependencies:
@@ -5613,6 +5615,17 @@ packages:
       isobject: 3.0.1
       static-extend: 0.1.2
     dev: true
+
+  /class-variance-authority/0.4.0_typescript@4.9.5:
+    resolution: {integrity: sha512-74enNN8O9ZNieycac/y8FxqgyzZhZbxmCitAtAeUrLPlxjSd5zA7LfpprmxEcOmQBnaGs5hYhiSGnJ0mqrtBLQ==}
+    peerDependencies:
+      typescript: '>= 4.5.5 < 5'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+    dependencies:
+      typescript: 4.9.5
+    dev: false
 
   /clean-css/4.2.4:
     resolution: {integrity: sha512-EJUDT7nDVFDvaQgAo2G/PJvxmp1o/c6iXLbswsBbUFXi1Nr+AjA2cKmfbKDMjMvzEe75g3P6JkaDDAKk96A85A==}
