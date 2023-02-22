@@ -12,13 +12,10 @@ export default component$(() => {
         <>
             <main>
                 <div
-                    class={`container mx-auto flex bg-green-300 justify-between min-h-[40px] items-center`}
+                    class={`container mx-auto flex bg-green-300 justify-end min-h-[50px] items-center`}
                 >
-                    <div class={`flex space-x-6`}>
-                        <div>back | forward</div>
-                        <input type="text" class={`bg-red-300 rounded-2xl`} />
-                    </div>
                     <div>
+                        <input type="text" class={`bg-red-300 rounded-2xl`} />
                         <a class={`text-green-600`} href="/">
                             Home
                         </a>
