@@ -41,6 +41,8 @@
         "vite-tsconfig-paths": "3.5.0"
     },
     "dependencies": {
+        "@headlessui/react": "^1.7.11",
+        "@heroicons/react": "^2.0.16",
         "fp-ts": "^2.13.1",
         "zod": "^3.20.6"
     }
