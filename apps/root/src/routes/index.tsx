@@ -3,8 +3,8 @@ import type { DocumentHead } from "@builder.io/qwik-city";
 
 export default component$(() => {
     return (
-        <div>
-            <h1 class="text-red-500">Welcome to Qwik</h1>
+        <div class={`container mx-auto`}>
+            <h1 class="text-red-500 text-">What's hot this weekend</h1>
             <p>thisi is a music app</p>
         </div>
     );
