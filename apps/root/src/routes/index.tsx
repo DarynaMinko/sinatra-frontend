@@ -5,8 +5,7 @@ import { Button } from "~/components/shared/button";
 export default component$(() => {
     return (
         <div class={`container mx-auto`}>
-            <h1 class="text-red-500 text-">What's hot this weekend</h1>
-            <p>thisi is a music app</p>
+            <h1 class="text-red-500 text-3xl">What's hot this weekend</h1>
             <Button>primary</Button>
             <Button intent="secondary">Secondary</Button>
         </div>

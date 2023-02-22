@@ -21,8 +21,6 @@ export const buttonStyles = cva(["font-semibold", "border", "rounded"], {
             intent: "primary",
             size: "medium",
             class: "uppercase"
-            // **or** if you're a React.js user, `className` may feel more consistent:
-            // className: "uppercase"
         }
     ],
     defaultVariants: {
@@ -32,8 +30,8 @@ export const buttonStyles = cva(["font-semibold", "border", "rounded"], {
 });
 
 type ButtonProps = {
-    readonly intent: "secondary" | "primary";
-    readonly size: "small" | "medium";
+    readonly intent?: "secondary" | "primary";
+    readonly size?: "small" | "medium";
 };
 
 export const Button = component$(({ intent }: ButtonProps) => {
