@@ -1,7 +1,7 @@
 import { component$ } from "@builder.io/qwik";
 import { cva } from "class-variance-authority";
 
-export const buttonStyles = cva(["font-semibold", "border", "rounded"], {
+export const buttonStyles = cva(["font-semibold", "border"], {
     variants: {
         intent: {
             // primary: ["bg-blue-500", "text-white", "border-transparent", "hover:bg-blue-600"],

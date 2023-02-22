@@ -12,7 +12,7 @@ export default component$(() => {
         <>
             <main>
                 <div
-                    class={`container mx-auto flex bg-green-300 justify-end min-h-[50px] items-center`}
+                    class={`container mx-auto flex bg-green-300 justify-end min-h-[40px] items-center`}
                 >
                     <div>
                         <input type="text" class={`bg-red-300 rounded-2xl`} />
