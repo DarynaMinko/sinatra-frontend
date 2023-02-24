@@ -1,4 +1,4 @@
-# Sinatra Monorepo repository 
+# Sinatra Monorepo repository
 
 ## What's inside?
 

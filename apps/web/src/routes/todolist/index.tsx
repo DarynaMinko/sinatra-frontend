@@ -1,5 +1,12 @@
 import { component$ } from "@builder.io/qwik";
-import { type DocumentHead, loader$, action$, zod$, z, Form } from "@builder.io/qwik-city";
+import {
+    type DocumentHead,
+    loader$,
+    action$,
+    zod$,
+    z,
+    Form
+} from "@builder.io/qwik-city";
 
 interface ListItem {
     text: string;
@@ -36,7 +43,7 @@ export default component$(() => {
                 ))}
             </ul>
             <Form action={action} spaReset>
-                <input type="text" name="text" required  />
+                <input type="text" name="text" required />
                 <button type="submit">Add item</button>
             </Form>
             <p>This little app works even when JavaScript is disabled.</p>

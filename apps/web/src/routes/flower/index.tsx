@@ -1,4 +1,9 @@
-import { component$, useClientEffect$, useStore, useStylesScoped$ } from "@builder.io/qwik";
+import {
+    component$,
+    useClientEffect$,
+    useStore,
+    useStylesScoped$
+} from "@builder.io/qwik";
 import { DocumentHead, useLocation } from "@builder.io/qwik-city";
 import styles from "./flower.css?inline";
 
@@ -26,7 +31,9 @@ export default component$(() => {
                 value={state.number}
                 max={50}
                 onInput$={(ev) => {
-                    state.number = (ev.target as HTMLInputElement).valueAsNumber;
+                    state.number = (
+                        ev.target as HTMLInputElement
+                    ).valueAsNumber;
                 }}
             />
             <div
