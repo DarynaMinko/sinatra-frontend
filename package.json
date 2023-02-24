@@ -38,8 +38,5 @@
         "**/*.{ts,tsx,js,jsx}": [
             "eslint --fix"
         ]
-    },
-    "volta": {
-        "node": "18.14.0"
     }
 }
