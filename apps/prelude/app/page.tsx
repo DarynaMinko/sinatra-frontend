@@ -1,4 +1,5 @@
 import { Button } from "ui/Button";
+import "../styles/globals.css"
 
 export default function Web() {
     return (
