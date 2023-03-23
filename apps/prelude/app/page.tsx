@@ -1,6 +1,6 @@
 'use client';
-import  Button  from "ui/Button";
 import "../styles/globals.css";
+import { Button } from "./components/Button";
 
 
 export default function Web() {
@@ -10,9 +10,10 @@ export default function Web() {
    
     return (
         <div>
-            <div className="text-2xl bg-teal-500">alksjdflk</div>
              <Button  onClick={() => console.log("You clicked!")}> INLOGGEN </Button>
-             <Button intent="secondary" size='small'  onClick={() => console.log("You clicked!")}> OUTLoggen </Button>
+             <Button intent="secondary" size='small'  onClick={() => console.log("You clicked!")}> REGISTERED </Button>
+             <Button intent="primary_header" size='medium'  onClick={() => console.log("You clicked!")}> ASK YOU QUESTION HERE </Button>
+             <Button intent="secondary" size='medium'  onClick={() => console.log("You clicked!")}> VIEW OUR OFFER </Button>
         </div>
     );
 }
