@@ -1,25 +1,16 @@
 import { component$, Slot } from "@builder.io/qwik";
-import { loader$ } from "@builder.io/qwik-city";
-
-export const serverTimeLoader = loader$(() => {
-    return {
-        date: new Date().toISOString()
-    };
-});
 
 export default component$(() => {
     return (
         <>
             <main>
-                <div
-                    class={`container mx-auto flex bg-green-300 justify-end min-h-[40px] items-center`}
-                >
+                <div class="container mx-auto flex bg-green-300 justify-end min-h-[40px] items-center">
                     <div>
-                        <input type="text" class={`bg-red-300 rounded-2xl`} />
-                        <a class={`text-green-600`} href="/">
+                        <input type="text" class="bg-red-300 rounded-2xl" />
+                        <a class="text-green-600" href="/">
                             Home
                         </a>
-                        <a class={`text-green-600`} href="/about">
+                        <a class="text-green-600" href="/about">
                             About
                         </a>
                     </div>
