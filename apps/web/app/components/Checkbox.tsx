@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Label } from "./Label";
+import React, { useState } from 'react';
+import { Label } from './Label';
 
 export interface CheckboxProps
     extends React.InputHTMLAttributes<HTMLInputElement> {

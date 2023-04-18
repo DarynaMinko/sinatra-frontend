@@ -1,9 +1,9 @@
-import React from "react";
-import { ComponentStory, ComponentMeta } from "@storybook/react";
-import { Radio } from "./Radio";
+import React from 'react';
+import { ComponentStory, ComponentMeta } from '@storybook/react';
+import { Radio } from './Radio';
 
 export default {
-    title: "<Radio/Radio",
+    title: '<Radio/Radio',
     component: Radio
 } as ComponentMeta<typeof Radio>;
 

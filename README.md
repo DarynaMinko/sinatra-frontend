@@ -1,13 +1,15 @@
 # Sinatra Monorepo repository
 
-This repo uses node version 18 and up you can install with your fav' node manager but here we are using pnpm 
+This repo uses node version 18 and up you can install with your fav' node manager but here we are using pnpm
 we are trying to make sure we always stay on [lts](https://nodejs.org/en/)
 
-for installing node version 
-- pnpm use env lts or 14/18 -g
+for installing node version
+
+-   pnpm use env lts or 14/18 -g
 
 for listing node envs
-- pnpm list env
+
+-   pnpm list env
 
 ## What's inside?
 
@@ -50,12 +52,14 @@ pnpm run dev
 ```
 
 To develop one app and packages, by filter run the following command:
+
 ```
 cd my-turborepo
 pnpm run dev --filter={app_name}
 ```
 
 To add package one app, by filter run the following command:
+
 ```
 cd my-turborepo
 pnpm add {package_name} --filter={app_name}
@@ -91,4 +95,4 @@ Learn more about the power of Turborepo:
 -   [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
 -   [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
 
-[//]: # "https://youtu.be/URIpmYjKgMA"
+[//]: # 'https://youtu.be/URIpmYjKgMA'

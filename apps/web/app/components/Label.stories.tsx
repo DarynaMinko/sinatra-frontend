@@ -1,9 +1,9 @@
-import React from "react";
-import { ComponentStory, ComponentMeta } from "@storybook/react";
-import { Label } from "./Label";
+import React from 'react';
+import { ComponentStory, ComponentMeta } from '@storybook/react';
+import { Label } from './Label';
 
 export default {
-    title: "<Label/Label",
+    title: '<Label/Label',
     component: Label
 } as ComponentMeta<typeof Label>;
 

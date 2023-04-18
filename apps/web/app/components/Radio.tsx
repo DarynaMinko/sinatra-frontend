@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Label } from "./Label";
+import React, { useState } from 'react';
+import { Label } from './Label';
 
 export interface RadioProps
     extends React.InputHTMLAttributes<HTMLInputElement> {

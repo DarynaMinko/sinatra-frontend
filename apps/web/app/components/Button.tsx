@@ -1,25 +1,25 @@
-import React from "react";
-import { cva, type VariantProps } from "class-variance-authority";
+import React from 'react';
+import { cva, type VariantProps } from 'class-variance-authority';
 
-const button = cva("text-center border", {
+const button = cva('text-center border', {
     variants: {
         intent: {
             primary:
-                "bg-black text-white font-black hover:bg-white hover:text-black hover:border-black",
+                'bg-black text-white font-black hover:bg-white hover:text-black hover:border-black',
             primary_header:
-                "bg-white text-black border-black font-black hover:bg-black hover:text-white hover:border-black",
+                'bg-white text-black border-black font-black hover:bg-black hover:text-white hover:border-black',
             secondary:
-                "bg-[#38B1AD] text-white font-black hover:bg-white hover:text-[#38B1AD] hover:border-[#38B1AD]"
+                'bg-[#38B1AD] text-white font-black hover:bg-white hover:text-[#38B1AD] hover:border-[#38B1AD]'
         },
         size: {
-            small: ["text-xs", "py-3", "px-3"],
-            medium: ["text-base", "py-3", "px-4"]
+            small: ['text-xs', 'py-3', 'px-3'],
+            medium: ['text-base', 'py-3', 'px-4']
         }
     },
-    compoundVariants: [{ intent: "primary", size: "medium" }],
+    compoundVariants: [{ intent: 'primary', size: 'medium' }],
     defaultVariants: {
-        intent: "primary",
-        size: "small"
+        intent: 'primary',
+        size: 'small'
     }
 });
 
