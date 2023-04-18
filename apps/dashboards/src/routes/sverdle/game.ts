@@ -71,7 +71,7 @@ export class Game {
      */
     toString() {
         return `${this.index}-${this.guesses.join(' ')}-${this.answers.join(
-            ' '
+            ' ',
         )}`;
     }
 }

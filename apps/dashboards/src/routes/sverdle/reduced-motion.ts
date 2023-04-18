@@ -21,9 +21,9 @@ export const reduced_motion = readable(
             return () => {
                 media_query_list.removeEventListener(
                     'change',
-                    set_reduced_motion
+                    set_reduced_motion,
                 );
             };
         }
-    }
+    },
 );

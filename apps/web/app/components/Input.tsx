@@ -9,10 +9,10 @@ const inputs = cva(
             sized: {
                 fullsized: 'w-[465px]',
                 halfsized: 'w-52',
-                thirdsized: 'w-32'
-            }
-        }
-    }
+                thirdsized: 'w-32',
+            },
+        },
+    },
 );
 
 export interface InputProps

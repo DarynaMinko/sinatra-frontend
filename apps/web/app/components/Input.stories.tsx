@@ -7,13 +7,13 @@ export default {
     component: Input,
     parameters: {
         intent: 'labeled',
-        sized: 'halfsized'
-    }
+        sized: 'halfsized',
+    },
 } as ComponentMeta<typeof Input>;
 
 const Template: ComponentStory<typeof Input> = (args) => <Input {...args} />;
 
 export const Fullsized = Template.bind({});
 Fullsized.args = {
-    sized: 'fullsized'
+    sized: 'fullsized',
 };

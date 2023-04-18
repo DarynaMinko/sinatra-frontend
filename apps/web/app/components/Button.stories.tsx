@@ -7,8 +7,8 @@ export default {
     component: Button,
     parameters: {
         intent: 'primary',
-        size: 'medium'
-    }
+        size: 'medium',
+    },
 } as ComponentMeta<typeof Button>;
 
 const Template: ComponentStory<typeof Button> = (args) => (
@@ -17,7 +17,7 @@ const Template: ComponentStory<typeof Button> = (args) => (
 
 export const Primary = Template.bind({});
 Primary.args = {
-    intent: 'primary'
+    intent: 'primary',
 };
 
 export const Secondary = Template.bind({});
@@ -25,10 +25,10 @@ Secondary.args = {};
 
 export const Large = Template.bind({});
 Large.args = {
-    size: 'medium'
+    size: 'medium',
 };
 
 export const Small = Template.bind({});
 Small.args = {
-    size: 'small'
+    size: 'small',
 };

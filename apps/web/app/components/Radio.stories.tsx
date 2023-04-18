@@ -4,7 +4,7 @@ import { Radio } from './Radio';
 
 export default {
     title: '<Radio/Radio',
-    component: Radio
+    component: Radio,
 } as ComponentMeta<typeof Radio>;
 
 // this var if we don't have children

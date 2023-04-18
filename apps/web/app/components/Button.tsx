@@ -9,18 +9,18 @@ const button = cva('text-center border', {
             primary_header:
                 'bg-white text-black border-black font-black hover:bg-black hover:text-white hover:border-black',
             secondary:
-                'bg-[#38B1AD] text-white font-black hover:bg-white hover:text-[#38B1AD] hover:border-[#38B1AD]'
+                'bg-[#38B1AD] text-white font-black hover:bg-white hover:text-[#38B1AD] hover:border-[#38B1AD]',
         },
         size: {
             small: ['text-xs', 'py-3', 'px-3'],
-            medium: ['text-base', 'py-3', 'px-4']
-        }
+            medium: ['text-base', 'py-3', 'px-4'],
+        },
     },
     compoundVariants: [{ intent: 'primary', size: 'medium' }],
     defaultVariants: {
         intent: 'primary',
-        size: 'small'
-    }
+        size: 'small',
+    },
 });
 
 export interface ButtonProps

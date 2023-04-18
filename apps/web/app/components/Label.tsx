@@ -9,19 +9,19 @@ const labels = cva(
                 normal: 'text-black text-base mt-4 mr-12 mb-0 ml-0 inline-flex font-normal relative w-24 basis-full',
                 bold: 'font-bold',
                 boldObligatory:
-                    "font-bold after:content-['*'] after:ml-0.5 after:text-[#38B1AD]"
+                    "font-bold after:content-['*'] after:ml-0.5 after:text-[#38B1AD]",
             },
             sized: {
                 small: 'text-black',
-                medium: 'text-black'
-            }
+                medium: 'text-black',
+            },
         },
         compoundVariants: [{ intent: 'boldObligatory', sized: 'medium' }],
         defaultVariants: {
             intent: 'boldObligatory',
-            sized: 'medium'
-        }
-    }
+            sized: 'medium',
+        },
+    },
 );
 
 export interface LabelProps
