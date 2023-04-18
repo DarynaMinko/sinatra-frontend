@@ -1,0 +1,10 @@
+{
+    "name": "typings",
+    "version": "0.0.0",
+    "main": "./index.ts",
+    "license": "MIT",
+    "scripts": {},
+    "dependencies": {
+        "zod": "^3.20.6"
+    }
+}

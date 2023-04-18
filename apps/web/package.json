@@ -20,7 +20,10 @@
         "require-from-string": "^2.0.2",
         "storybook": "^6.5.16",
         "webpack": "^5.76.3",
-        "zustand": "^4.3.6"
+        "zustand": "^4.3.6",
+        "typings": "workspace:*",
+        "ui": "workspace:*",
+        "libs": "workspace:*"
     },
     "devDependencies": {
         "@babel/core": "^7.0.0",
