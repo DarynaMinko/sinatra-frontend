@@ -3,7 +3,7 @@ import { cva, type VariantProps } from 'class-variance-authority';
 import { Label } from './Label';
 
 const inputs = cva(
-    'bg-white border-slate-400 box-border border outline-0 solid text-base font-normal leading-6  text-ellipsis pl-4 h-[45px] focus:border-black',
+    'bg-white border-slate-400 box-border border outline-0 solid text-base font-normal leading-6 h-[40px] focus:border-black',
     {
         variants: {
             sized: {
@@ -26,9 +26,10 @@ export interface InputProps
 export const Input: React.FC<InputProps> = (props) => {
     const { className, sized, placeholder, ...rest } = props;
 
+    //<Label label={props.label}></Label>
+
     return (
         <div>
-            <Label label={props.label}></Label>
             <input
                 type="text"
                 placeholder={placeholder}

@@ -7,13 +7,14 @@ const button = cva('text-center border', {
             primary:
                 'bg-black text-white font-black hover:bg-white hover:text-black hover:border-black',
             primary_header:
-                'bg-white text-black border-black font-black hover:bg-black hover:text-white hover:border-black',
+                'bg-white text-black border-[#38B1AD] font-black hover:[#38B1AD] hover:text-[#38B1AD] hover:border-black',
             secondary:
                 'bg-[#38B1AD] text-white font-black hover:bg-white hover:text-[#38B1AD] hover:border-[#38B1AD]',
         },
         size: {
             small: ['text-xs', 'py-3', 'px-3'],
-            medium: ['text-base', 'py-3', 'px-4'],
+            medium: ['text-base', 'py-2', 'px-4'],
+            padding: ['px-36'],
         },
     },
     compoundVariants: [{ intent: 'primary', size: 'medium' }],
